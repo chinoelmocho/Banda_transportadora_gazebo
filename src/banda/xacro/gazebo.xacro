@@ -5,7 +5,7 @@
        CONSTANTES (se dejan aquí parametrizadas para no tener "números
        mágicos" repartidos).
        =================================================================== -->
-  <xacro:property name="belt_velocity"   value="0.2"/>   <!-- m/s que recibe lo que se apoya en la banda -->
+  <xacro:property name="belt_velocity"   value="2.0"/>   <!-- m/s que recibe lo que se apoya en la banda -->
   <xacro:property name="belt_publish_rate" value="10"/>  <!-- Hz de publicación de estado del plugin -->
   <xacro:property name="mu1_banda"       value="1.0"/>   <!-- fricción alta: arrastra el objeto, no lo desliza -->
   <xacro:property name="mu2_banda"       value="1.0"/>
