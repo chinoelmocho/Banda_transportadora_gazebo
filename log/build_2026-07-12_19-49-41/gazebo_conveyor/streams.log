@@ -1,0 +1,33 @@
+[0.619s] Invoking command in '/home/chino/fabrica_ws/build/gazebo_conveyor': /usr/bin/cmake /home/chino/fabrica_ws/src/gazebo-conveyor -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chino/fabrica_ws/install/gazebo_conveyor
+[1.372s] -- The C compiler identification is GNU 11.4.0
+[4.058s] -- The CXX compiler identification is GNU 11.4.0
+[6.251s] -- Detecting C compiler ABI info
+[6.859s] -- Detecting C compiler ABI info - done
+[6.872s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.873s] -- Detecting C compile features
+[6.874s] -- Detecting C compile features - done
+[6.882s] -- Detecting CXX compiler ABI info
+[7.509s] -- Detecting CXX compiler ABI info - done
+[7.524s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.525s] -- Detecting CXX compile features
+[7.526s] -- Detecting CXX compile features - done
+[15.135s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[15.135s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[15.135s]   asked CMake to find a package configuration file provided by "catkin", but
+[15.135s]   CMake did not find one.
+[15.136s] 
+[15.136s]   Could not find a package configuration file provided by "catkin" with any
+[15.136s]   of the following names:
+[15.136s] 
+[15.136s]     catkinConfig.cmake
+[15.136s]     catkin-config.cmake
+[15.136s] 
+[15.136s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[15.136s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[15.136s]   provides a separate development package or SDK, be sure it has been
+[15.137s]   installed.
+[15.137s] 
+[15.137s] [0m
+[15.137s] -- Configuring incomplete, errors occurred!
+[15.137s] See also "/home/chino/fabrica_ws/build/gazebo_conveyor/CMakeFiles/CMakeOutput.log".
+[15.143s] Invoked command in '/home/chino/fabrica_ws/build/gazebo_conveyor' returned '1': /usr/bin/cmake /home/chino/fabrica_ws/src/gazebo-conveyor -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chino/fabrica_ws/install/gazebo_conveyor

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ===================================================================
+       CONSTANTES (se dejan aquí parametrizadas para no tener "números
+       mágicos" repartidos).
+       =================================================================== -->
+  <xacro:property name="belt_velocity"   value="0.2"/>   <!-- m/s que recibe lo que se apoya en la banda -->
+  <xacro:property name="belt_publish_rate" value="10"/>  <!-- Hz de publicación de estado del plugin -->
+  <xacro:property name="mu1_banda"       value="1.0"/>   <!-- fricción alta: arrastra el objeto, no lo desliza -->
+  <xacro:property name="mu2_banda"       value="1.0"/>
+  <xacro:property name="mu1_generico"    value="0.6"/>
+  <xacro:property name="mu2_generico"    value="0.6"/>
+  <xacro:property name="mu1_belt_surface" value="100.0"/> <!-- fricción muy alta: la superficie dinámica "agarra" la caja -->
+  <xacro:property name="mu2_belt_surface" value="100.0"/>
+
+  <gazebo reference="body_link">
+    <material>Gazebo/Grey</material>
+    <mu1>${mu1_generico}</mu1>
+    <mu2>${mu2_generico}</mu2>
+  </gazebo>
+
+  <gazebo reference="belt_link">
+    <material>Gazebo/Black</material>
+    <mu1>${mu1_banda}</mu1>
+    <mu2>${mu2_banda}</mu2>
+  </gazebo>
+
+  <gazebo reference="belt_surface_link">
+    <mu1>${mu1_belt_surface}</mu1>
+    <mu2>${mu2_belt_surface}</mu2>
+  </gazebo>
+
+  <gazebo reference="left_art1_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="right_art1_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="left_art2_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="right_art2_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="left_iron_bar_link">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+  <gazebo reference="right_iron_bar_link">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+  <gazebo reference="iron_bar2_link">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+  <gazebo reference="support_L_link">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+  <gazebo reference="support_R_link">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  
+  <gazebo>
+    <static>false</static>
+    <plugin filename="libros2_conveyorbelt_plugin.so" name="ros2_conveyorbelt_plugin">
+        <ros>
+            <namespace></namespace>
+        </ros>
+        <max_velocity>0.2</max_velocity>
+        <publish_rate>10</publish_rate>
+    </plugin>
+  </gazebo>
+
+  
+</robot>

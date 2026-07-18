@@ -1,0 +1,8 @@
+source;share/conveyorbelt_gazebo/hook/cmake_prefix_path.ps1
+source;share/conveyorbelt_gazebo/hook/cmake_prefix_path.dsv
+source;share/conveyorbelt_gazebo/hook/cmake_prefix_path.sh
+source;share/conveyorbelt_gazebo/local_setup.bash
+source;share/conveyorbelt_gazebo/local_setup.dsv
+source;share/conveyorbelt_gazebo/local_setup.ps1
+source;share/conveyorbelt_gazebo/local_setup.sh
+source;share/conveyorbelt_gazebo/local_setup.zsh

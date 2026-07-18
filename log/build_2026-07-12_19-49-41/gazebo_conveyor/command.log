@@ -1,0 +1,2 @@
+Invoking command in '/home/chino/fabrica_ws/build/gazebo_conveyor': /usr/bin/cmake /home/chino/fabrica_ws/src/gazebo-conveyor -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chino/fabrica_ws/install/gazebo_conveyor
+Invoked command in '/home/chino/fabrica_ws/build/gazebo_conveyor' returned '1': /usr/bin/cmake /home/chino/fabrica_ws/src/gazebo-conveyor -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chino/fabrica_ws/install/gazebo_conveyor

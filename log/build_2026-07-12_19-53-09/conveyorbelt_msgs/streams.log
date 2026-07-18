@@ -1,0 +1,280 @@
+[0.056s] Invoking command in '/home/chino/fabrica_ws/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=/home/chino/fabrica_ws/install/banda:/opt/ros/humble /usr/bin/cmake /home/chino/fabrica_ws/src/IFRA_ConveyorBelt/conveyorbelt_msgs -DCMAKE_INSTALL_PREFIX=/home/chino/fabrica_ws/install/conveyorbelt_msgs
+[0.678s] -- The C compiler identification is GNU 11.4.0
+[3.393s] -- The CXX compiler identification is GNU 11.4.0
+[5.447s] -- Detecting C compiler ABI info
+[6.038s] -- Detecting C compiler ABI info - done
+[6.052s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.052s] -- Detecting C compile features
+[6.053s] -- Detecting C compile features - done
+[6.059s] -- Detecting CXX compiler ABI info
+[6.610s] -- Detecting CXX compiler ABI info - done
+[6.624s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.625s] -- Detecting CXX compile features
+[6.626s] -- Detecting CXX compile features - done
+[6.654s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.034s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.307s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.492s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.532s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.800s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.173s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.344s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.351s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[12.581s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[12.581s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.581s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[12.581s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[12.620s] -- Found PythonExtra: .so  
+[12.900s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.905s] -- Added test 'lint_cmake' to check CMake code style
+[12.909s] -- Added test 'xmllint' to check XML markup files
+[12.932s] -- Configuring done
+[13.074s] -- Generating done
+[13.100s] -- Build files have been written to: /home/chino/fabrica_ws/build/conveyorbelt_msgs
+[13.114s] Invoked command in '/home/chino/fabrica_ws/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=/home/chino/fabrica_ws/install/banda:/opt/ros/humble /usr/bin/cmake /home/chino/fabrica_ws/src/IFRA_ConveyorBelt/conveyorbelt_msgs -DCMAKE_INSTALL_PREFIX=/home/chino/fabrica_ws/install/conveyorbelt_msgs
+[13.118s] Invoking command in '/home/chino/fabrica_ws/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=/home/chino/fabrica_ws/install/banda:/opt/ros/humble /usr/bin/cmake --build /home/chino/fabrica_ws/build/conveyorbelt_msgs -- -j16 -l16
+[13.201s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.222s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.237s] [  5%] Built target ament_cmake_python_copy_conveyorbelt_msgs
+[13.795s] running egg_info
+[13.797s] creating conveyorbelt_msgs.egg-info
+[13.799s] writing conveyorbelt_msgs.egg-info/PKG-INFO
+[13.799s] writing dependency_links to conveyorbelt_msgs.egg-info/dependency_links.txt
+[13.800s] writing top-level names to conveyorbelt_msgs.egg-info/top_level.txt
+[13.800s] writing manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'
+[13.806s] reading manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'
+[13.807s] writing manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'
+[13.868s] [  5%] Built target ament_cmake_python_build_conveyorbelt_msgs_egg
+[13.917s] [  7%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_c.dir/rosidl_generator_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__functions.c.o[0m
+[13.917s] [ 10%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_c.dir/rosidl_generator_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__functions.c.o[0m
+[13.932s] [ 10%] Built target conveyorbelt_msgs__cpp
+[13.957s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.958s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.958s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.055s] [ 20%] [32m[1mLinking C shared library libconveyorbelt_msgs__rosidl_generator_c.so[0m
+[14.519s] [ 25%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/conveyorbelt_msgs/msg/conveyor_belt_state__type_support.cpp.o[0m
+[14.520s] [ 25%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/conveyorbelt_msgs/srv/conveyor_belt_control__type_support.cpp.o[0m
+[14.576s] [ 28%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.cpp.o[0m
+[14.578s] [ 30%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.cpp.o[0m
+[14.594s] [ 30%] Built target conveyorbelt_msgs__rosidl_generator_c
+[14.609s] [ 33%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/conveyorbelt_msgs/srv/detail/dds_fastrtps/conveyor_belt_control__type_support.cpp.o[0m
+[14.613s] [ 35%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/conveyorbelt_msgs/msg/detail/dds_fastrtps/conveyor_belt_state__type_support.cpp.o[0m
+[14.620s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.621s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.622s] [ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.364s] [ 46%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_cpp.so[0m
+[15.426s] [ 48%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/conveyorbelt_msgs/msg/conveyor_belt_state__type_support.cpp.o[0m
+[15.428s] [ 51%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/conveyorbelt_msgs/srv/conveyor_belt_control__type_support.cpp.o[0m
+[15.519s] [ 53%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_c.so[0m
+[15.534s] [ 58%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.c.o[0m
+[15.534s] [ 58%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.c.o[0m
+[15.595s] [ 61%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support_c.cpp.o[0m
+[15.595s] [ 64%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support_c.cpp.o[0m
+[15.640s] [ 66%] [32m[1mLinking C shared library libconveyorbelt_msgs__rosidl_typesupport_introspection_c.so[0m
+[15.827s] [ 69%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[15.850s] [ 71%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.012s] [ 71%] Built target conveyorbelt_msgs__rosidl_typesupport_cpp
+[16.116s] [ 71%] Built target conveyorbelt_msgs__rosidl_typesupport_c
+[16.256s] [ 71%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_c
+[16.363s] [ 71%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_cpp
+[16.420s] [ 74%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[16.515s] [ 74%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp
+[16.984s] [ 74%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_c
+[17.026s] [ 74%] Built target conveyorbelt_msgs
+[17.074s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.936s] [ 76%] Built target conveyorbelt_msgs__py
+[17.978s] [ 82%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_py.dir/rosidl_generator_py/conveyorbelt_msgs/srv/_conveyor_belt_control_s.c.o[0m
+[17.978s] [ 82%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_py.dir/rosidl_generator_py/conveyorbelt_msgs/msg/_conveyor_belt_state_s.c.o[0m
+[18.250s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/libconveyorbelt_msgs__rosidl_generator_py.so[0m
+[18.812s] [ 84%] Built target conveyorbelt_msgs__rosidl_generator_py
+[18.860s] [ 87%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.863s] [ 92%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.863s] [ 92%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[19.087s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.093s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.100s] [100%] [32m[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.435s] [100%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext
+[19.437s] [100%] Built target conveyorbelt_msgs__rosidl_typesupport_c__pyext
+[19.615s] [100%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext
+[19.641s] Invoked command in '/home/chino/fabrica_ws/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=/home/chino/fabrica_ws/install/banda:/opt/ros/humble /usr/bin/cmake --build /home/chino/fabrica_ws/build/conveyorbelt_msgs -- -j16 -l16
+[19.645s] Invoking command in '/home/chino/fabrica_ws/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=/home/chino/fabrica_ws/install/banda:/opt/ros/humble /usr/bin/cmake --install /home/chino/fabrica_ws/build/conveyorbelt_msgs
+[19.662s] -- Install configuration: ""
+[19.662s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg
+[19.667s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg/ConveyorBeltState.msg
+[19.668s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv
+[19.669s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl.srv
+[19.672s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/ament_index/resource_index/rosidl_interfaces/conveyorbelt_msgs
+[19.673s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs
+[19.676s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv
+[19.677s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/conveyor_belt_control.h
+[19.678s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail
+[19.679s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__struct.h
+[19.680s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.h
+[19.680s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__functions.c
+[19.681s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__functions.h
+[19.681s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg
+[19.683s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/conveyor_belt_state.h
+[19.683s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.684s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail
+[19.685s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__struct.h
+[19.685s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__functions.h
+[19.686s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__functions.c
+[19.686s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.h
+[19.688s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/library_path.sh
+[19.689s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/library_path.dsv
+[19.691s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_c.so
+[19.693s] -- Set runtime path of "/home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_c.so" to ""
+[19.693s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs
+[19.693s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv
+[19.693s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail
+[19.694s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_fastrtps_c.h
+[19.694s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg
+[19.694s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.695s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail
+[19.695s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_fastrtps_c.h
+[19.696s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.so
+[19.698s] -- Set runtime path of "/home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[19.699s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs
+[19.699s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv
+[19.699s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail
+[19.700s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_introspection_c.h
+[19.700s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.c
+[19.700s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg
+[19.701s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.701s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail
+[19.701s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.c
+[19.701s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_introspection_c.h
+[19.702s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_c.so
+[19.702s] -- Set runtime path of "/home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_c.so" to ""
+[19.702s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_c.so
+[19.703s] -- Set runtime path of "/home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_c.so" to ""
+[19.703s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs
+[19.703s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv
+[19.704s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail
+[19.704s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.hpp
+[19.704s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__builder.hpp
+[19.705s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__struct.hpp
+[19.705s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__traits.hpp
+[19.705s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/conveyor_belt_control.hpp
+[19.705s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg
+[19.705s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/conveyor_belt_state.hpp
+[19.706s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail
+[19.706s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.hpp
+[19.707s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__traits.hpp
+[19.707s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__struct.hpp
+[19.707s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__builder.hpp
+[19.708s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.708s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs
+[19.709s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv
+[19.709s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail
+[19.709s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/dds_fastrtps
+[19.710s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_fastrtps_cpp.hpp
+[19.710s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg
+[19.711s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.711s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail
+[19.711s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/dds_fastrtps
+[19.712s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_fastrtps_cpp.hpp
+[19.713s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.714s] -- Set runtime path of "/home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.714s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs
+[19.714s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv
+[19.715s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail
+[19.715s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.cpp
+[19.715s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_introspection_cpp.hpp
+[19.716s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg
+[19.716s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail
+[19.716s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.cpp
+[19.717s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_introspection_cpp.hpp
+[19.717s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_cpp.so
+[19.717s] -- Set runtime path of "/home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[19.718s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_cpp.so
+[19.719s] -- Set runtime path of "/home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_cpp.so" to ""
+[19.719s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/pythonpath.sh
+[19.719s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/pythonpath.dsv
+[19.720s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info
+[19.724s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[19.725s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[19.725s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[19.725s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[19.726s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs
+[19.727s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.728s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[19.728s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.729s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv
+[19.730s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/_conveyor_belt_control_s.c
+[19.730s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/_conveyor_belt_control.py
+[19.730s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/__init__.py
+[19.731s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/__init__.py
+[19.731s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg
+[19.732s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/_conveyor_belt_state.py
+[19.733s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/__init__.py
+[19.733s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/_conveyor_belt_state_s.c
+[19.734s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/libconveyorbelt_msgs__rosidl_generator_py.so
+[19.734s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.734s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.735s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_c.c
+[19.805s] Listing '/home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs'...
+[19.805s] Compiling '/home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/__init__.py'...
+[19.805s] Listing '/home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg'...
+[19.805s] Compiling '/home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/__init__.py'...
+[19.805s] Compiling '/home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/_conveyor_belt_state.py'...
+[19.805s] Listing '/home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv'...
+[19.806s] Compiling '/home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/__init__.py'...
+[19.806s] Compiling '/home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/_conveyor_belt_control.py'...
+[19.813s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.814s] -- Set runtime path of "/home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.814s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.815s] -- Set runtime path of "/home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.816s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.817s] -- Set runtime path of "/home/chino/fabrica_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.817s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_py.so
+[19.818s] -- Set runtime path of "/home/chino/fabrica_ws/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_py.so" to ""
+[19.818s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg/ConveyorBeltState.idl
+[19.819s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl.idl
+[19.819s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg/ConveyorBeltState.msg
+[19.820s] -- Up-to-date: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl.srv
+[19.820s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl_Request.msg
+[19.820s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl_Response.msg
+[19.821s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/ament_index/resource_index/package_run_dependencies/conveyorbelt_msgs
+[19.823s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/ament_index/resource_index/parent_prefix_path/conveyorbelt_msgs
+[19.823s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/ament_prefix_path.sh
+[19.824s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/ament_prefix_path.dsv
+[19.824s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/path.sh
+[19.825s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/path.dsv
+[19.825s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.bash
+[19.825s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.sh
+[19.826s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.zsh
+[19.826s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.dsv
+[19.827s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.dsv
+[19.829s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/ament_index/resource_index/packages/conveyorbelt_msgs
+[19.830s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_cExport.cmake
+[19.831s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_cExport-noconfig.cmake
+[19.831s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[19.832s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.832s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cExport.cmake
+[19.833s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.833s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cExport.cmake
+[19.834s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[19.834s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_cppExport.cmake
+[19.835s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.835s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.836s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[19.836s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.837s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cppExport.cmake
+[19.837s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[19.838s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_pyExport.cmake
+[19.838s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_pyExport-noconfig.cmake
+[19.839s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/rosidl_cmake-extras.cmake
+[19.840s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.840s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[19.841s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[19.841s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.842s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.842s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.843s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgsConfig.cmake
+[19.843s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgsConfig-version.cmake
+[19.844s] -- Installing: /home/chino/fabrica_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.xml
+[19.849s] Invoked command in '/home/chino/fabrica_ws/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=/home/chino/fabrica_ws/install/banda:/opt/ros/humble /usr/bin/cmake --install /home/chino/fabrica_ws/build/conveyorbelt_msgs

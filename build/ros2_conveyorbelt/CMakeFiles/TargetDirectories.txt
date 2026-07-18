@@ -1,0 +1,10 @@
+/home/chino/fabrica_ws/build/ros2_conveyorbelt/CMakeFiles/uninstall.dir
+/home/chino/fabrica_ws/build/ros2_conveyorbelt/CMakeFiles/ros2_conveyorbelt_uninstall.dir
+/home/chino/fabrica_ws/build/ros2_conveyorbelt/CMakeFiles/ros2_conveyorbelt_plugin.dir
+/home/chino/fabrica_ws/build/ros2_conveyorbelt/CMakeFiles/test.dir
+/home/chino/fabrica_ws/build/ros2_conveyorbelt/CMakeFiles/edit_cache.dir
+/home/chino/fabrica_ws/build/ros2_conveyorbelt/CMakeFiles/rebuild_cache.dir
+/home/chino/fabrica_ws/build/ros2_conveyorbelt/CMakeFiles/list_install_components.dir
+/home/chino/fabrica_ws/build/ros2_conveyorbelt/CMakeFiles/install.dir
+/home/chino/fabrica_ws/build/ros2_conveyorbelt/CMakeFiles/install/local.dir
+/home/chino/fabrica_ws/build/ros2_conveyorbelt/CMakeFiles/install/strip.dir

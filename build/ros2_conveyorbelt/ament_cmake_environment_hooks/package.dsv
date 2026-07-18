@@ -1,0 +1,4 @@
+source;share/ros2_conveyorbelt/local_setup.bash
+source;share/ros2_conveyorbelt/local_setup.dsv
+source;share/ros2_conveyorbelt/local_setup.sh
+source;share/ros2_conveyorbelt/local_setup.zsh

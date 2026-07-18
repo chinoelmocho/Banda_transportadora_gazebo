@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ===================================================================
+       Materiales visuales (usados por <material name="..."/> en los
+       tags <visual> del xacro principal, banda_transportadora.xacro)
+       =================================================================== -->
+
+  <!-- Aluminio pulido: cuerpo, brazos rígidos (iron_bar) y soportes -->
+  <material name="aluminio_pulido">
+    <color rgba="0.91 0.92 0.93 1.0"/>
+  </material>
+
+  <!-- Caucho: banda transportadora y articulaciones (art1 / art2) -->
+  <material name="caucho">
+    <color rgba="0.04 0.04 0.04 1.0"/>
+  </material>
+
+</robot>

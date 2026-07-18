@@ -1,0 +1,50 @@
+running egg_info
+creating ../../build/banda/banda.egg-info
+writing ../../build/banda/banda.egg-info/PKG-INFO
+writing dependency_links to ../../build/banda/banda.egg-info/dependency_links.txt
+writing entry points to ../../build/banda/banda.egg-info/entry_points.txt
+writing requirements to ../../build/banda/banda.egg-info/requires.txt
+writing top-level names to ../../build/banda/banda.egg-info/top_level.txt
+writing manifest file '../../build/banda/banda.egg-info/SOURCES.txt'
+reading manifest file '../../build/banda/banda.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/banda/banda.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/chino/fabrica_ws/build/banda/build
+creating /home/chino/fabrica_ws/build/banda/build/lib
+creating /home/chino/fabrica_ws/build/banda/build/lib/banda
+copying banda/__init__.py -> /home/chino/fabrica_ws/build/banda/build/lib/banda
+running install
+running install_lib
+creating /home/chino/fabrica_ws/install/banda/lib/python3.10/site-packages/banda
+copying /home/chino/fabrica_ws/build/banda/build/lib/banda/__init__.py -> /home/chino/fabrica_ws/install/banda/lib/python3.10/site-packages/banda
+byte-compiling /home/chino/fabrica_ws/install/banda/lib/python3.10/site-packages/banda/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/chino/fabrica_ws/install/banda/share/ament_index
+creating /home/chino/fabrica_ws/install/banda/share/ament_index/resource_index
+creating /home/chino/fabrica_ws/install/banda/share/ament_index/resource_index/packages
+copying resource/banda -> /home/chino/fabrica_ws/install/banda/share/ament_index/resource_index/packages
+copying package.xml -> /home/chino/fabrica_ws/install/banda/share/banda
+creating /home/chino/fabrica_ws/install/banda/share/banda/launch
+copying launch/display.launch.py -> /home/chino/fabrica_ws/install/banda/share/banda/launch
+copying launch/gazebo.launch.py -> /home/chino/fabrica_ws/install/banda/share/banda/launch
+creating /home/chino/fabrica_ws/install/banda/share/banda/xacro
+copying xacro/gazebo.xacro -> /home/chino/fabrica_ws/install/banda/share/banda/xacro
+copying xacro/banda_transportadora.xacro -> /home/chino/fabrica_ws/install/banda/share/banda/xacro
+copying xacro/materials.xacro -> /home/chino/fabrica_ws/install/banda/share/banda/xacro
+creating /home/chino/fabrica_ws/install/banda/share/banda/meshes
+copying meshes/support_L.stl -> /home/chino/fabrica_ws/install/banda/share/banda/meshes
+copying meshes/iron_bar.stl -> /home/chino/fabrica_ws/install/banda/share/banda/meshes
+copying meshes/band.stl -> /home/chino/fabrica_ws/install/banda/share/banda/meshes
+copying meshes/iron_bar2.stl -> /home/chino/fabrica_ws/install/banda/share/banda/meshes
+copying meshes/art2.stl -> /home/chino/fabrica_ws/install/banda/share/banda/meshes
+copying meshes/body.stl -> /home/chino/fabrica_ws/install/banda/share/banda/meshes
+copying meshes/support_R.stl -> /home/chino/fabrica_ws/install/banda/share/banda/meshes
+copying meshes/art1.stl -> /home/chino/fabrica_ws/install/banda/share/banda/meshes
+creating /home/chino/fabrica_ws/install/banda/share/banda/rviz
+copying rviz/banda.rviz -> /home/chino/fabrica_ws/install/banda/share/banda/rviz
+running install_egg_info
+Copying ../../build/banda/banda.egg-info to /home/chino/fabrica_ws/install/banda/lib/python3.10/site-packages/banda-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/chino/fabrica_ws/build/banda/install.log'

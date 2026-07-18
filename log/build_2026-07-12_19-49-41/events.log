@@ -1,0 +1,214 @@
+[0.000000] (-) TimerEvent: {}
+[0.001087] (banda) JobQueued: {'identifier': 'banda', 'dependencies': OrderedDict()}
+[0.001325] (gazebo_conveyor) JobQueued: {'identifier': 'gazebo_conveyor', 'dependencies': OrderedDict()}
+[0.002375] (banda) JobStarted: {'identifier': 'banda'}
+[0.034063] (gazebo_conveyor) JobStarted: {'identifier': 'gazebo_conveyor'}
+[0.099473] (-) TimerEvent: {}
+[0.199903] (-) TimerEvent: {}
+[0.300488] (-) TimerEvent: {}
+[0.401015] (-) TimerEvent: {}
+[0.501649] (-) TimerEvent: {}
+[0.602214] (-) TimerEvent: {}
+[0.633481] (gazebo_conveyor) JobProgress: {'identifier': 'gazebo_conveyor', 'progress': 'cmake'}
+[0.639324] (gazebo_conveyor) Command: {'cmd': ['/usr/bin/cmake', '/home/chino/fabrica_ws/src/gazebo-conveyor', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/chino/fabrica_ws/install/gazebo_conveyor'], 'cwd': '/home/chino/fabrica_ws/build/gazebo_conveyor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', ':/home/chino/uvix_ws/install/bobert_sim/share'), ('USER', 'chino'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/chino'), ('OLDPWD', '/home/chino'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chino/fabrica_ws/install'), ('INFOPATH', '/usr/local/texlive/2025/texmf-dist/doc/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chino'), ('NAME', 'David'), ('WSL_INTEROP', '/run/WSL/333_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models::/home/chino/roam_ws/src/gazebo_models_worlds_collection/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/chino/.local/bin:/usr/local/texlive/2025/bin/x86_64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe:/mnt/c/RoboDK/Python37/Scripts/:/mnt/c/RoboDK/Python37/:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA/CUDNN/v9.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/lib/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/include:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Blender Foundation/Blender 3.6:/mnt/c/msys64/usr/bin:/mnt/c/Program Files/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files (x86)/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files/Pandoc:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/ZeroTier/One/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/David Guncay/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/David Guncay/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/David Guncay/AppData/Local/Programs/Ollama:/mnt/c/Users/David Guncay/.dotnet/tools:/mnt/c/Users/David Guncay/AppData/Roaming/npm:/mnt/c/Users/David Guncay/AppData/Local/Kiro-Cli/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('mesa_glthread', 'false'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/chino/fabrica_ws/install/banda:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('WEBOTS_HOME', '/mnt/c/Program Files/Webots/msys64/mingw64/bin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11::/home/chino/roam_ws/src/gazebo_models_worlds_collection/worlds'), ('GZ_RENDERING_BACKEND', 'opengl'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/chino/fabrica_ws/build/gazebo_conveyor'), ('TURTLEBOT3_MODEL', 'waffle'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.6'), ('PYTHONPATH', '/home/chino/fabrica_ws/install/banda/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('MANPATH', '/usr/local/texlive/2025/texmf-dist/doc/man:'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.702374] (-) TimerEvent: {}
+[0.802954] (-) TimerEvent: {}
+[0.903661] (-) TimerEvent: {}
+[1.004212] (-) TimerEvent: {}
+[1.104731] (-) TimerEvent: {}
+[1.205193] (-) TimerEvent: {}
+[1.305784] (-) TimerEvent: {}
+[1.405820] (gazebo_conveyor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.406258] (-) TimerEvent: {}
+[1.506666] (-) TimerEvent: {}
+[1.607190] (-) TimerEvent: {}
+[1.712351] (banda) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/banda', 'build', '--build-base', '/home/chino/fabrica_ws/build/banda/build', 'install', '--record', '/home/chino/fabrica_ws/build/banda/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/chino/fabrica_ws/src/banda', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MESA_D3D12_DEFAULT_ADAPTER_NAME': 'NVIDIA', 'GZ_SIM_RESOURCE_PATH': ':/home/chino/uvix_ws/install/bobert_sim/share', 'USER': 'chino', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/chino', 'OLDPWD': '/home/chino', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chino/fabrica_ws/install', 'INFOPATH': '/usr/local/texlive/2025/texmf-dist/doc/info:', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chino', 'NAME': 'David', 'WSL_INTEROP': '/run/WSL/333_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models::/home/chino/roam_ws/src/gazebo_models_worlds_collection/models', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/chino/.local/bin:/usr/local/texlive/2025/bin/x86_64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe:/mnt/c/RoboDK/Python37/Scripts/:/mnt/c/RoboDK/Python37/:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA/CUDNN/v9.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/lib/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/include:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Blender Foundation/Blender 3.6:/mnt/c/msys64/usr/bin:/mnt/c/Program Files/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files (x86)/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files/Pandoc:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/ZeroTier/One/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/David Guncay/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/David Guncay/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/David Guncay/AppData/Local/Programs/Ollama:/mnt/c/Users/David Guncay/.dotnet/tools:/mnt/c/Users/David Guncay/AppData/Roaming/npm:/mnt/c/Users/David Guncay/AppData/Local/Kiro-Cli/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'mesa_glthread': 'false', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/chino/fabrica_ws/install/banda:/opt/ros/humble', 'SHELL': '/bin/bash', 'WEBOTS_HOME': '/mnt/c/Program Files/Webots/msys64/mingw64/bin', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11::/home/chino/roam_ws/src/gazebo_models_worlds_collection/worlds', 'GZ_RENDERING_BACKEND': 'opengl', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/home/chino/fabrica_ws/build/banda', 'TURTLEBOT3_MODEL': 'waffle', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'MESA_GL_VERSION_OVERRIDE': '4.6', 'PYTHONPATH': '/home/chino/fabrica_ws/build/banda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/fabrica_ws/install/banda/lib/python3.10/site-packages:/home/chino/fabrica_ws/install/banda/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'MANPATH': '/usr/local/texlive/2025/texmf-dist/doc/man:', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.719282] (-) TimerEvent: {}
+[1.819825] (-) TimerEvent: {}
+[1.920342] (-) TimerEvent: {}
+[2.020889] (-) TimerEvent: {}
+[2.121520] (-) TimerEvent: {}
+[2.212374] (banda) StdoutLine: {'line': b'running egg_info\n'}
+[2.213612] (banda) StdoutLine: {'line': b'writing ../../build/banda/banda.egg-info/PKG-INFO\n'}
+[2.218375] (banda) StdoutLine: {'line': b'writing dependency_links to ../../build/banda/banda.egg-info/dependency_links.txt\n'}
+[2.219149] (banda) StdoutLine: {'line': b'writing entry points to ../../build/banda/banda.egg-info/entry_points.txt\n'}
+[2.219895] (banda) StdoutLine: {'line': b'writing requirements to ../../build/banda/banda.egg-info/requires.txt\n'}
+[2.220124] (banda) StdoutLine: {'line': b'writing top-level names to ../../build/banda/banda.egg-info/top_level.txt\n'}
+[2.221656] (-) TimerEvent: {}
+[2.224696] (banda) StdoutLine: {'line': b"reading manifest file '../../build/banda/banda.egg-info/SOURCES.txt'\n"}
+[2.225852] (banda) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.227016] (banda) StdoutLine: {'line': b"writing manifest file '../../build/banda/banda.egg-info/SOURCES.txt'\n"}
+[2.227400] (banda) StdoutLine: {'line': b'running build\n'}
+[2.227708] (banda) StdoutLine: {'line': b'running build_py\n'}
+[2.228172] (banda) StdoutLine: {'line': b'running install\n'}
+[2.228753] (banda) StdoutLine: {'line': b'running install_lib\n'}
+[2.230903] (banda) StdoutLine: {'line': b'running install_data\n'}
+[2.231846] (banda) StdoutLine: {'line': b'copying xacro/gazebo.xacro -> /home/chino/fabrica_ws/install/banda/share/banda/xacro\n'}
+[2.233798] (banda) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.237109] (banda) StdoutLine: {'line': b"removing '/home/chino/fabrica_ws/install/banda/lib/python3.10/site-packages/banda-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.238938] (banda) StdoutLine: {'line': b'Copying ../../build/banda/banda.egg-info to /home/chino/fabrica_ws/install/banda/lib/python3.10/site-packages/banda-0.0.0-py3.10.egg-info\n'}
+[2.244195] (banda) StdoutLine: {'line': b'running install_scripts\n'}
+[2.280389] (banda) StdoutLine: {'line': b"writing list of installed files to '/home/chino/fabrica_ws/build/banda/install.log'\n"}
+[2.321598] (banda) CommandEnded: {'returncode': 0}
+[2.322869] (-) TimerEvent: {}
+[2.355587] (banda) JobEnded: {'identifier': 'banda', 'rc': 0}
+[2.423024] (-) TimerEvent: {}
+[2.523658] (-) TimerEvent: {}
+[2.624191] (-) TimerEvent: {}
+[2.724734] (-) TimerEvent: {}
+[2.825263] (-) TimerEvent: {}
+[2.925812] (-) TimerEvent: {}
+[3.026377] (-) TimerEvent: {}
+[3.127004] (-) TimerEvent: {}
+[3.227717] (-) TimerEvent: {}
+[3.328261] (-) TimerEvent: {}
+[3.428869] (-) TimerEvent: {}
+[3.529506] (-) TimerEvent: {}
+[3.630104] (-) TimerEvent: {}
+[3.730651] (-) TimerEvent: {}
+[3.831182] (-) TimerEvent: {}
+[3.931730] (-) TimerEvent: {}
+[4.032344] (-) TimerEvent: {}
+[4.091754] (gazebo_conveyor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.132530] (-) TimerEvent: {}
+[4.233076] (-) TimerEvent: {}
+[4.333633] (-) TimerEvent: {}
+[4.434186] (-) TimerEvent: {}
+[4.536629] (-) TimerEvent: {}
+[4.641094] (-) TimerEvent: {}
+[4.744219] (-) TimerEvent: {}
+[4.845158] (-) TimerEvent: {}
+[4.948308] (-) TimerEvent: {}
+[5.052567] (-) TimerEvent: {}
+[5.154440] (-) TimerEvent: {}
+[5.258830] (-) TimerEvent: {}
+[5.360793] (-) TimerEvent: {}
+[5.463252] (-) TimerEvent: {}
+[5.565623] (-) TimerEvent: {}
+[5.670024] (-) TimerEvent: {}
+[5.772507] (-) TimerEvent: {}
+[5.874859] (-) TimerEvent: {}
+[5.977222] (-) TimerEvent: {}
+[6.081569] (-) TimerEvent: {}
+[6.183575] (-) TimerEvent: {}
+[6.285049] (gazebo_conveyor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.285385] (-) TimerEvent: {}
+[6.385774] (-) TimerEvent: {}
+[6.486347] (-) TimerEvent: {}
+[6.586998] (-) TimerEvent: {}
+[6.687667] (-) TimerEvent: {}
+[6.788364] (-) TimerEvent: {}
+[6.888911] (-) TimerEvent: {}
+[6.892694] (gazebo_conveyor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.905803] (gazebo_conveyor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.906793] (gazebo_conveyor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.908727] (gazebo_conveyor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.915751] (gazebo_conveyor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.989113] (-) TimerEvent: {}
+[7.089668] (-) TimerEvent: {}
+[7.190223] (-) TimerEvent: {}
+[7.290759] (-) TimerEvent: {}
+[7.391332] (-) TimerEvent: {}
+[7.491876] (-) TimerEvent: {}
+[7.542547] (gazebo_conveyor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.558212] (gazebo_conveyor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.558804] (gazebo_conveyor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.559824] (gazebo_conveyor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.592061] (-) TimerEvent: {}
+[7.692600] (-) TimerEvent: {}
+[7.793191] (-) TimerEvent: {}
+[7.893751] (-) TimerEvent: {}
+[7.994282] (-) TimerEvent: {}
+[8.094821] (-) TimerEvent: {}
+[8.195467] (-) TimerEvent: {}
+[8.296003] (-) TimerEvent: {}
+[8.396542] (-) TimerEvent: {}
+[8.497079] (-) TimerEvent: {}
+[8.597638] (-) TimerEvent: {}
+[8.698293] (-) TimerEvent: {}
+[8.798855] (-) TimerEvent: {}
+[8.899534] (-) TimerEvent: {}
+[9.000052] (-) TimerEvent: {}
+[9.100587] (-) TimerEvent: {}
+[9.201183] (-) TimerEvent: {}
+[9.301731] (-) TimerEvent: {}
+[9.402271] (-) TimerEvent: {}
+[9.502876] (-) TimerEvent: {}
+[9.603510] (-) TimerEvent: {}
+[9.704057] (-) TimerEvent: {}
+[9.804604] (-) TimerEvent: {}
+[9.905167] (-) TimerEvent: {}
+[10.005853] (-) TimerEvent: {}
+[10.106406] (-) TimerEvent: {}
+[10.206937] (-) TimerEvent: {}
+[10.307529] (-) TimerEvent: {}
+[10.408078] (-) TimerEvent: {}
+[10.508663] (-) TimerEvent: {}
+[10.609271] (-) TimerEvent: {}
+[10.709829] (-) TimerEvent: {}
+[10.810368] (-) TimerEvent: {}
+[10.910894] (-) TimerEvent: {}
+[11.011617] (-) TimerEvent: {}
+[11.112165] (-) TimerEvent: {}
+[11.212699] (-) TimerEvent: {}
+[11.313352] (-) TimerEvent: {}
+[11.413945] (-) TimerEvent: {}
+[11.514488] (-) TimerEvent: {}
+[11.615010] (-) TimerEvent: {}
+[11.715610] (-) TimerEvent: {}
+[11.816212] (-) TimerEvent: {}
+[11.916705] (-) TimerEvent: {}
+[12.017248] (-) TimerEvent: {}
+[12.117747] (-) TimerEvent: {}
+[12.218338] (-) TimerEvent: {}
+[12.318877] (-) TimerEvent: {}
+[12.419590] (-) TimerEvent: {}
+[12.520407] (-) TimerEvent: {}
+[12.621294] (-) TimerEvent: {}
+[12.722568] (-) TimerEvent: {}
+[12.825825] (-) TimerEvent: {}
+[12.927756] (-) TimerEvent: {}
+[13.028503] (-) TimerEvent: {}
+[13.129380] (-) TimerEvent: {}
+[13.230095] (-) TimerEvent: {}
+[13.330887] (-) TimerEvent: {}
+[13.431528] (-) TimerEvent: {}
+[13.532144] (-) TimerEvent: {}
+[13.632908] (-) TimerEvent: {}
+[13.733746] (-) TimerEvent: {}
+[13.835307] (-) TimerEvent: {}
+[13.935902] (-) TimerEvent: {}
+[14.036846] (-) TimerEvent: {}
+[14.142836] (-) TimerEvent: {}
+[14.247684] (-) TimerEvent: {}
+[14.348774] (-) TimerEvent: {}
+[14.449660] (-) TimerEvent: {}
+[14.550493] (-) TimerEvent: {}
+[14.651238] (-) TimerEvent: {}
+[14.752252] (-) TimerEvent: {}
+[14.853434] (-) TimerEvent: {}
+[14.954514] (-) TimerEvent: {}
+[15.055646] (-) TimerEvent: {}
+[15.156865] (-) TimerEvent: {}
+[15.169046] (gazebo_conveyor) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:17 (find_package):\n'}
+[15.169544] (gazebo_conveyor) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[15.169688] (gazebo_conveyor) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[15.169804] (gazebo_conveyor) StderrLine: {'line': b'  CMake did not find one.\n'}
+[15.169911] (gazebo_conveyor) StderrLine: {'line': b'\n'}
+[15.170020] (gazebo_conveyor) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[15.170126] (gazebo_conveyor) StderrLine: {'line': b'  of the following names:\n'}
+[15.170228] (gazebo_conveyor) StderrLine: {'line': b'\n'}
+[15.170324] (gazebo_conveyor) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[15.170431] (gazebo_conveyor) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[15.170529] (gazebo_conveyor) StderrLine: {'line': b'\n'}
+[15.170627] (gazebo_conveyor) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[15.170727] (gazebo_conveyor) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[15.170823] (gazebo_conveyor) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[15.170916] (gazebo_conveyor) StderrLine: {'line': b'  installed.\n'}
+[15.171013] (gazebo_conveyor) StderrLine: {'line': b'\n'}
+[15.171203] (gazebo_conveyor) StderrLine: {'line': b'\x1b[0m\n'}
+[15.171442] (gazebo_conveyor) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[15.171574] (gazebo_conveyor) StdoutLine: {'line': b'See also "/home/chino/fabrica_ws/build/gazebo_conveyor/CMakeFiles/CMakeOutput.log".\n'}
+[15.176153] (gazebo_conveyor) CommandEnded: {'returncode': 1}
+[15.215894] (gazebo_conveyor) JobEnded: {'identifier': 'gazebo_conveyor', 'rc': 1}
+[15.228110] (-) EventReactorShutdown: {}

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ec8f9382e2a1b1b49ae4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "conveyorbelt_msgs__py",
+					"jsonFile" : "directory-conveyorbelt_msgs__py-a2719daf2e9a24f0c35f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/chino/fabrica_ws/build/conveyorbelt_msgs/conveyorbelt_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "conveyorbelt_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_conveyorbelt_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_conveyorbelt_msgs_egg-6d8b84eec2dc8b259e01.json",
+					"name" : "ament_cmake_python_build_conveyorbelt_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_conveyorbelt_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_conveyorbelt_msgs-d58a019c8f873ea32eb8.json",
+					"name" : "ament_cmake_python_copy_conveyorbelt_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs-56982117f7cafb426fd6.json",
+					"name" : "conveyorbelt_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__cpp-1cc98ff087f6de6f167b.json",
+					"name" : "conveyorbelt_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "conveyorbelt_msgs__py::@e38449f765b71972820e",
+					"jsonFile" : "target-conveyorbelt_msgs__py-da889999555aa8635831.json",
+					"name" : "conveyorbelt_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_generator_c-0d47b631e15ff5c006cd.json",
+					"name" : "conveyorbelt_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_generator_py-1e713b4cdbe44071b71c.json",
+					"name" : "conveyorbelt_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_c-d210de40af43ed16d215.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_c__pyext-375b0df8fbcb49902033.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_cpp-afbc9aff418e68fe9ecc.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_fastrtps_c-7683a6900718aaf1b7db.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext-6bc59ffab4aa8ef03751.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp-25ff099de7e669ccc49d.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_introspection_c-c59a703ced3ccca88afe.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext-327394b06f9d4445e88f.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_introspection_cpp-91d07e1d5ade7a42e4ea.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs_uninstall-edad33fb15234217d47e.json",
+					"name" : "conveyorbelt_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b02a953a2b3fd26cf1d0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chino/fabrica_ws/build/conveyorbelt_msgs",
+		"source" : "/home/chino/fabrica_ws/src/IFRA_ConveyorBelt/conveyorbelt_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
