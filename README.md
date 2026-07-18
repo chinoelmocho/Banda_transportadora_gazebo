@@ -1,7 +1,7 @@
 # fabrica_ws
 
 Workspace de **ROS 2** (Humble) para simular una **banda transportadora industrial** en Gazebo Classic: modelo 3D (URDF/xacro), visualización en RViz, física de contacto y control de velocidad de la banda vía un plugin de Gazebo.
-
+![banda transportadora ](docs/images/ph2.png)
 <!-- 
   IMAGEN 1: Foto/render general del robot (banda transportadora) en RViz o Gazebo.
   ![Banda transportadora en Gazebo](docs/images/banda_gazebo.png)
