@@ -1,0 +1,4 @@
+[submodule "src/IFRA_ConveyorBelt"]
+	path = src/IFRA_ConveyorBelt
+	url = https://github.com/IFRA-Cranfield/IFRA_ConveyorBelt.git
+	branch = humble

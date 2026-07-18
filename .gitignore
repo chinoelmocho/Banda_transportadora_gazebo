@@ -1,0 +1,18 @@
+# Colcon build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vscode/
+*.swp
+*~
+Thumbs.db
+.DS_Store
+
+# Windows Zone.Identifier metadata files
+*:Zone.Identifier

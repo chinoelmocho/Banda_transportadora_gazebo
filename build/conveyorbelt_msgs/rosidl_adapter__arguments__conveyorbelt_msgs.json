@@ -1,7 +1,0 @@
-{
-  "package_name": "conveyorbelt_msgs",
-  "non_idl_tuples": [
-    "/home/chino/fabrica_ws/src/IFRA_ConveyorBelt/conveyorbelt_msgs:msg/ConveyorBeltState.msg",
-    "/home/chino/fabrica_ws/src/IFRA_ConveyorBelt/conveyorbelt_msgs:srv/ConveyorBeltControl.srv"
-  ]
-}
