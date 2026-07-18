@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"//wsl.localhost/Ubuntu-22.04/home/chino/fabrica_ws/docs/images\")",
+      "Bash(touch \"//wsl.localhost/Ubuntu-22.04/home/chino/fabrica_ws/docs/images/.gitkeep\")",
+      "Read(///wsl.localhost/Ubuntu-22.04/home/chino/**)",
+      "Bash(mkdir -p docs/images)",
+      "Bash(touch docs/images/.gitkeep)"
+    ]
+  }
+}
